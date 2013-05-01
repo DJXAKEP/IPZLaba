@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d7d4e66b-8d45-4db6-b76f-18fe55343258"
+  name="Server"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8b2407c7-a137-45ca-b5e3-b6540ce1dd08"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DIPZLaba.Server"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ec3c63b4-9837-4370-8948-4ef9c0c01413"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fd6b6bca-b67b-4c9d-9031-9325de19412d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c715c21f-1220-4f97-8def-d30ccec72181"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14e69b8b-044e-42ed-999b-a766b9d88dc5">
+                <propertyInstance
+                  Id="735ceaf8-173a-45e2-82d4-ec13e0e7f620"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="726f1aa6-b8ea-4453-8889-9d1d5f7e0cb8">
+                <propertyInstance
+                  Id="ed725891-39b5-451d-b04d-9f3d844ffe12"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e885b210-8ac4-486e-a6de-157cfb85ab1e">
+                <propertyInstance
+                  Id="e1d76908-2609-4993-a030-8e1d56ff7159"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e67b081c-40c9-4ac7-8062-7c43b7d775f7">
+                <propertyInstance
+                  Id="2543a514-6824-486b-aeaf-36a68e3dd453"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddadbf08-fea1-4d1f-83fc-42dcbae0b8fb">
+                <propertyInstance
+                  Id="722712e2-70ef-41b2-b66e-17537050a424"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8f7309e0-897c-47b2-ab20-32e5fe0f740c"
+            name="coffeeList"
+            visibility="Private"
+            isLeaf="true"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d85d45f9-3980-44ba-b8a5-73a97546ff51"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DcoffeeList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dbef92ed-7b5f-41d6-9eee-7879700af6be"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="953a8031-562b-4b7d-8c56-69c113fe30d8">
+                    <propertyInstance
+                      Id="8c0288ec-68d1-49bc-b951-49c753606cfa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d647f7-2141-430a-b77c-675f84d1169e">
+                    <propertyInstance
+                      Id="83d4fa49-7b70-4dde-b8c5-1fd7c999405e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8914bb87-3730-4be4-8290-c87542a1b2a4">
+                    <propertyInstance
+                      Id="93affe3c-c650-4eb8-8d1a-e573452e4e09"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9dc6834-8b7f-4e68-9325-3caebb558e08">
+                    <propertyInstance
+                      Id="bdd04f48-7d1b-4386-a4e0-1de56d8dc4e1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab88798-7cf0-4d6b-af77-6fb45f15acc8">
+                    <propertyInstance
+                      Id="2eea606b-adb7-42a8-ae87-8c9dbaaff76c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+              <stereotypeInstance
+                Id="5b8c9b05-d411-4059-8be2-0e9ed23d1f9e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="190b640e-5aa1-4516-a56f-fb98cd192c00">
+                    <propertyInstance
+                      Id="10cbb111-b5c1-4974-b088-1796758ccc9d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c29d1352-f2fe-4555-b5fe-a7486dd80b61">
+                    <propertyInstance
+                      Id="5eae62db-04f9-43b8-9725-bb059218ce18"
+                      name="Get"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="394922f9-b9d9-401e-b025-618a5b285045">
+                    <propertyInstance
+                      Id="a9409a34-f4fc-4253-804f-dba91c9d7299"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b82cf1cc-e728-4edd-8e5e-c9b70f18ccab">
+                    <propertyInstance
+                      Id="b671fefa-111c-4184-96fa-79f30bafc752"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fb82ebe-3e2d-4851-a1e1-ce8125959ea0">
+                    <propertyInstance
+                      Id="449f5559-897d-40a8-bed0-263f014d4470"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9a4e67d-bae7-4829-86f1-04a6f8a40c92">
+                    <propertyInstance
+                      Id="20082d9c-f287-4b69-857f-a0469ec37dd0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f75bcd1-8fd6-4978-8273-296181db7c7c">
+                    <propertyInstance
+                      Id="8f886984-d995-4a79-9bfb-222bd8a74e6b"
+                      name="Set"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="b1478e3d-3191-47a6-9486-156f5106ea94"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="02fc9176-c698-4608-bbf8-c7dd772c14e9"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="af6fd4ab-764a-4e9c-81e8-bb815fbbc53c"
+                LastKnownName="Dictionary&lt;String‎, Decimal‎&gt;"
+                LastKnownLocation="Package2_1204.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d1a3b6c5-a4c3-4299-b6d0-5b6ae6be151a"
+            name="billsList"
+            visibility="Private"
+            isLeaf="true"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="39c227c2-4c3a-42c8-aa57-cff8cf89105b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DbillsList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68b5fa78-0499-45f1-b1e6-60ad96929be0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec8a5497-2daa-4ee8-8f4b-2ec9448c6f95">
+                    <propertyInstance
+                      Id="1094a2a6-5bcc-47d4-9253-040b40d765a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95331eeb-1a0b-4cde-bc3b-423082597d5f">
+                    <propertyInstance
+                      Id="28d28e16-8e88-4033-ad2f-c5c88209182b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bc0a930-9df4-44c3-84ab-03c87c23a769">
+                    <propertyInstance
+                      Id="ee01b6b0-df4c-43f2-8007-93a58dc1c1d1"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="604c87f6-ec79-487f-9241-eb0d3951cad7">
+                    <propertyInstance
+                      Id="520a923c-f4fc-48fa-8439-4fb3fd733f8a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c91c30a8-08eb-48c6-9ab8-8a79d380ae86">
+                    <propertyInstance
+                      Id="bfe6ed41-7c37-40a5-a578-44f955fbeedb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="3bdad187-106e-4a56-a4f3-154799e5e97c"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="152667ca-1960-4e43-93dd-6f029ac4281a"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="99f7b8c4-3942-42fd-bbac-808fd4baa858"
+                LastKnownName="Dictionary&lt;Decimal‎, Int32‎&gt;"
+                LastKnownLocation="Package2_1204.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b8f6619a-6cd9-442a-ad05-d9f289a75ca0"
+            name="moneyBalance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="116d91d8-fe52-4036-a16c-ac54cb46fee1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DmoneyBalance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02f31c23-22fe-446e-9b04-4463b54b538e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19a04cbb-e87e-4889-9c83-2564061b7e32">
+                    <propertyInstance
+                      Id="6085928d-bee2-4872-9884-556a239b1d86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02f3fffa-8218-4143-97e2-d9a74c76efaf">
+                    <propertyInstance
+                      Id="c5c4f347-de24-481b-aa46-5935fd5a2d97"
+                      name="Get"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bd80d00-5990-49ec-874e-aa4a5f360988">
+                    <propertyInstance
+                      Id="a28111a7-983a-42e0-a9c3-060d73803dd6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c24eba43-3505-4767-8e72-c786359e52b1">
+                    <propertyInstance
+                      Id="9a52a442-74ca-4633-8e66-fed71d1c55b8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9840ca85-61dc-4b6c-917e-1adefc8d20c2">
+                    <propertyInstance
+                      Id="9c2acc3a-409e-4740-8070-0e13b346abb0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ea8bdd4-7124-433f-a838-520e12385fb2">
+                    <propertyInstance
+                      Id="ca97fd57-5cab-44a0-aa10-2a2e83ef593b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff160c16-7841-45c7-9dd9-06376aee5cdd">
+                    <propertyInstance
+                      Id="89f20ad8-1b62-4ba9-8756-e04e7495f6f7"
+                      name="Set"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="543d0ee4-d870-4d6c-81e7-fe01cfe4d90f"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1204.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fe62d2ce-925a-476d-8e87-8bd5c77e824b"
+            name="getMoneyValue"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f3c1865b-1e4e-48fb-80cd-a4dc291b5612"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DgetMoneyValue"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ed1e8a93-b2a5-4cec-b26e-2d33a6fd0b11"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09f2c2ee-9c5c-4122-a324-ca9c57f87560">
+                    <propertyInstance
+                      Id="c1ef51fa-00e2-4cd6-8195-71fa6137a94d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="363119be-fd4b-43ef-8787-96262cdd1a08">
+                    <propertyInstance
+                      Id="6aaf26ec-963c-45ff-baf3-0ac730fa95bc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18db998c-ba27-4051-9d8b-c960aa2f8b00">
+                    <propertyInstance
+                      Id="cdbae1b5-077f-4719-9a55-7c4662f70064"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d904e18e-70e9-4b68-ae30-0014a0c6ae02">
+                    <propertyInstance
+                      Id="3eaad237-99f8-4f3b-8dae-a3db6e97ce16"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d07ad56b-50ac-4452-af34-c2347fbd109b">
+                    <propertyInstance
+                      Id="d7b57c0f-4576-4968-afd5-5f5b5c8e451c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a171744f-361b-4f35-9eca-e55fd5f46b2e">
+                    <propertyInstance
+                      Id="3d2ac791-6ab7-42bb-a384-9ef373f51b09"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e842cebb-b6cc-4d86-972b-a1baad1a89e5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="543d0ee4-d870-4d6c-81e7-fe01cfe4d90f"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1204.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9e02b2f1-9c6f-4320-98e5-106aaaf85594"
+            name="getCoffeList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb38ada9-2a3e-40e2-9581-25f412d4d02b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DgetCoffeList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f4704c87-3a59-4161-adcf-7b755da916b0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f83ac7d0-007a-4130-91c9-749c2bfc9b75">
+                    <propertyInstance
+                      Id="80597bde-a6a8-4722-bafe-dc8f45035391"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92f86624-db6e-4b04-bbaa-c11919add165">
+                    <propertyInstance
+                      Id="9ad28765-a59a-42e9-ad17-edf94fd09c17"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ed9c951-27f7-4354-9037-2f0ca67f4f0d">
+                    <propertyInstance
+                      Id="1136439f-846c-44aa-8594-e036267170ca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="594aa64d-2fd7-4bf3-a7dd-69e56854d27a">
+                    <propertyInstance
+                      Id="0778d65b-52e7-4925-8adb-6e28b1c84763"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="518d4dd9-b8f3-44c3-889a-be2cb0235fec">
+                    <propertyInstance
+                      Id="f08abdea-6537-494b-b06e-f6c3ac56ebcd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38a4addc-f38c-43e1-984a-5e26754ec685">
+                    <propertyInstance
+                      Id="839e2820-bbeb-42af-ae11-232c073b02e0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa889b44-c17f-40e5-81f1-4382939fb7a7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="af6fd4ab-764a-4e9c-81e8-bb815fbbc53c"
+                      LastKnownName="Dictionary&lt;String‎, Decimal‎&gt;"
+                      LastKnownLocation="Package2_1204.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8c394023-2430-4e1f-a0ec-1039142e46aa"
+            name="getLastError"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3c537f53-c8e6-4df8-a529-f75c20cb845b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DgetLastError"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46123f42-bc95-4386-8d8b-f3e7499fdd00"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="478caba0-929c-4867-b92e-677859096a2c">
+                    <propertyInstance
+                      Id="0363fe85-f870-480a-9092-c245d2cb0f9f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a462ca1-eb02-4bdf-aca3-9c12a4d0b518">
+                    <propertyInstance
+                      Id="a8d6c2ba-f5de-4234-a333-e10fedd4de8b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="958c9312-0382-4361-ac39-010df260d69f">
+                    <propertyInstance
+                      Id="cbf6553d-4dd5-44af-827a-082e9132fed7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8e28555-bf64-4388-bf27-76a5b8dc283e">
+                    <propertyInstance
+                      Id="49e58085-8e51-478d-a1a9-af0549d22d5e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc80fced-915a-4eed-afd8-382f3acde7f2">
+                    <propertyInstance
+                      Id="1b161145-0bee-43f0-9758-457926f89728"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d15ccbbc-feb1-4de9-97ac-6147d3ab67b6">
+                    <propertyInstance
+                      Id="b2a3b3f2-fc70-44c4-a535-a443b18ab640"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="57cb9f66-497f-45cf-85a9-c14c22c273a2"
+            name="Main"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="12bef379-73ff-4f66-b228-c54c40804ae3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a0afdc7e-6734-4c35-8d89-404077da3e23"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16dc4a6c-f61e-4d7f-9879-293432cf783e">
+                    <propertyInstance
+                      Id="cd1c9b11-0c95-409d-bd39-f4bddeca14bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af9d13b4-1b48-4b2b-9160-0b62547a0822">
+                    <propertyInstance
+                      Id="472d76b4-01f6-4137-9abb-44a9fd658a0e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6776d57-6319-4a31-8d3b-969c7e037a87">
+                    <propertyInstance
+                      Id="54ce3cb2-69bb-4b9b-83a8-c9a54a5e47d5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8085eef-f4b8-45bb-820b-98f7365d0b70">
+                    <propertyInstance
+                      Id="b0e04bcc-3561-4089-95f5-d214c11dbec5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee3c5998-265a-4879-b658-fc97fba2b4b0">
+                    <propertyInstance
+                      Id="04417e53-eddb-4c06-bd07-3d486f8cce3b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12dc7eeb-4331-4097-adb2-cd40131c3003">
+                    <propertyInstance
+                      Id="1496645d-3d55-42b1-9581-f3dae79d5d3f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ace38fb2-93df-4eb3-a98e-c8f3d9a9752a"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b488c2d1-8d0d-4650-8de8-fb1a54c01d67"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fdima%2Fdocuments%2Fvisual studio 2012%2FProjects%2FmodelCofee%2FmodelCofeeLib%2Fbin%2FDebug%2FmodelCofeeLib.dll&quot; Namespace%3DIPZLaba.Server Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b990e2b1-45b2-46d9-be82-0bcb4ef59d38"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6808a558-a09a-47d2-bf44-19422291dd45">
+                    <propertyInstance
+                      Id="edbfad2e-106c-437d-b749-9c0690a599bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cbbbcef-b440-4e0a-a2ed-70d78c9c85b3">
+                    <propertyInstance
+                      Id="1b9c6433-8998-453a-b088-501ca669cc85"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91b0cdb7-e782-4b0c-89ed-2e9170453b2e">
+                    <propertyInstance
+                      Id="c956aac5-f488-498d-8fc7-1f304cd457f6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="669cc773-4871-434a-a2f1-3d06f737b386">
+                    <propertyInstance
+                      Id="8ceeae1d-2247-4f63-be2a-6400b615e86d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53285d05-7b3a-4984-b23c-a7c777932079">
+                    <propertyInstance
+                      Id="765adefd-feff-4ef9-98de-7fe8db6aa9c8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9dbd7dd-f893-4ee3-9349-6f3d941c7aa2">
+                    <propertyInstance
+                      Id="92749395-0d23-404e-8dd5-7241ac06dfa6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

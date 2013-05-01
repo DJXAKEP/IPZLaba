@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="modelCofee2">
+  <logicalClassDesignerModelMoniker Id="ac9049cf-282b-4f3a-b77f-ba74b450eb26" />
+  <nestedChildShapes>
+    <classShape Id="859f4b23-4528-4334-bb10-9625f9f7825a" absoluteBounds="2.625, 1.125, 3, 2.3089293346802395" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="fb5721fb-e427-4af3-8428-d9c7bfb08fe1" LastKnownName="Program" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="081221ef-7504-4480-a597-c6f7f5fc6ad8" absoluteBounds="2.64, 1.6403356393178306, 2.9699999999999998, 0.68164060264825832" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="bcd39729-8469-4835-9475-86790d1e7631" absoluteBounds="2.64, 2.331976241966089, 2.9699999999999998, 1.0019530927141507" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

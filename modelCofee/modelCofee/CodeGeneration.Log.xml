@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="Имя = ClassTemplate" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="ProjectPath = ..\modelCofeeLib\modelCofeeLib.csproj" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-05-01T10:00:30" Importance="Medium" Text="Привязка шаблона текста, принадлежащая modelCofee: &quot;ClassTemplate&quot; применит ClassTemplate.t4 к: &quot;modelCofee::IPZLaba::Server::Program&quot; -  (Class) " />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Medium" Text="&quot;modelCofee::IPZLaba::Server::Program&quot; -  (Class) : успешно (файл заменен) - c:\users\dima\documents\visual studio 2012\Projects\modelCofee\modelCofeeLib\GeneratedCode\IPZLaba\Server\Program.cs" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="Имя = StructTemplate" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="Перезаписать = True" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="ProjectPath = ..\modelCofeeLib\modelCofeeLib.csproj" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Medium" Text="Привязка шаблона текста, принадлежащая modelCofee: &quot;StructTemplate&quot; применит StructTemplate.t4 к: &quot;modelCofee::IPZLaba::Server::Program&quot; -  (Class) " />
+  <Message Timestamp="2013-05-01T10:00:32" Importance="Diagnostic" Text="&quot;modelCofee::IPZLaba::Server::Program&quot; -  (Class): файлы не созданы, поскольку метод AppliesToElement шаблона &quot;StructTemplate.t4&quot; возвратил значение false." />
+  <Message Timestamp="2013-05-01T10:00:33" Importance="Diagnostic" Text="Выбрано 2 элементов, не связанных с шаблоном." />
+  <Message Timestamp="2013-05-01T10:00:33" Importance="Diagnostic" Text="&quot;modelCofee::IPZLaba&quot; -  (Package): нет привязанных шаблонов." />
+  <Message Timestamp="2013-05-01T10:00:33" Importance="Diagnostic" Text="&quot;modelCofee::IPZLaba::Server&quot; -  (Package): нет привязанных шаблонов." />
+  <Message Timestamp="2013-05-01T10:00:33" Importance="High" Text="Создание кода завершено. Ошибок: 0. Предупреждений: 0." />
+</Log>
