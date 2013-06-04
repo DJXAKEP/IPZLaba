@@ -1,0 +1,15 @@
+33333	//port
+
+//table of product
+01	green tea		3	99
+02	black tea		3	99
+03	coffee			5	99
+04	cappuccino		5	99
+05	espresso		6	99
+06	latte			5	99
+07	mocha			5	99
+08	hot chocolate	6	99
+09	hot cider		5	99
+10	malted milk		4	99
+11	mate			5	99
+12	pearl milk tea	6	99
