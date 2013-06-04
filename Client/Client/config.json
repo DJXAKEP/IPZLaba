@@ -1,0 +1,4 @@
+netconfig{
+	//"ip"	:  
+	"port"	: 33333;
+}
