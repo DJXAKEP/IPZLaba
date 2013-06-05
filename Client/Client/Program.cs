@@ -13,10 +13,14 @@ namespace Client
 	class Program
 	{
 		private static IPEndPoint endPoint;
+		private static TcpClient client;
 
 		static void Main( string[] args )
 		{
 			endPoint = parseNetConfig( args );
+
+			client = new TcpClient( endPoint );
+
 			Console.WriteLine( "Connected to " + endPoint.Address.ToString()
 					+ ":" + endPoint.Port.ToString() );
 		}
